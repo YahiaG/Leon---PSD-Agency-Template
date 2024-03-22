@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Render All Elements Normally  -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!-- Import Font Awesome Library v6.5.1  -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- Main CSS File  -->
+    <link rel="stylesheet" href="CSS/master.css">
+    <!-- Import Worksans font from Google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <title>Leon - PSD Agency Template</title>
+    <script>
+        function toggleHide(e){
+            document.querySelector(".links").classList.toggle("hide")
+        }
+        onscroll= function(){
+            if(scrollY > 500){
+                document.querySelector(".up").style.display = "block";
+            }
+            else{
+                document.querySelector(".up").style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="Imgs/logo.png" alt="" class="logo">
+            <nav>
+                <div class="icon" onclick="toggleHide()">
+                    <span></span><span></span><span></span>
+                </div>
+                <ul class="links hide">
+                    <li><a href="#services" onclick="toggleHide()">services</a></li>
+                    <li><a href="#portfolio" onclick="toggleHide()">portfolio</a></li>
+                    <li><a href="#about" onclick="toggleHide()">about</a></li>
+                    <li><a href="#contact" onclick="toggleHide()">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="landing" id="landing">
+        <div class="intro">
+            <h1>hello there!</h1>
+            <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="feat">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h3>tell us your idea</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nobis doloribus officiis eius iste?</p>
+            </div>
+            <div class="feat">
+                <i class="fa-solid fa-flask"></i>
+                <h3>we will do all the work</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nobis doloribus officiis eius iste?</p>
+            </div>
+            <div class="feat">
+                <i class="fa-solid fa-globe"></i>
+                <h3>your product is worldwide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nobis doloribus officiis eius iste?</p>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="special-heading">services</h2>
+        <P>Don't be busy, be Productive</P>
+        <div class="container">
+            <div class="col">
+                <div class="box">
+                    <i class="fa-solid fa-print"></i>
+                    <div class="text">
+                        <h3>Graphic Design</h3>
+                        <p>Graphic design is the process of visual 
+                            communication and problem-solving 
+                            using one or more of typography, 
+                            photography and illustration.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-message"></i>
+                    <div class="text">
+                        <h3>UI & UX</h3>
+                        <p>Process of enhancing user satisfaction 
+                            with a product by improving the 
+                            usability, accessibility, and pleasure 
+                            provided in the interaction.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box">
+                    <i class="fa-solid fa-draw-polygon"></i>
+                    <div class="text">
+                        <h3>Web Design</h3>
+                        <p>Web design encompasses many different 
+                            skills and disciplines in the production 
+                            and maintenance of websites.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-code"></i>
+                    <div class="text">
+                        <h3>Web Development</h3>
+                        <p>Web development is a broad term for 
+                            the work involved in developing a web site 
+                            for the Internet or an intranet.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="image">
+                    <img src="Imgs/puppy.jpg" alt="puppy"> 
+                </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="special-heading">portfolio</h2>
+        <p>If you do it right, it will last forever</p>
+        <div class="container">
+            <div class="box">
+                <img src="Imgs/des1.jpg" alt="">
+                <div class="info">
+                    <h3>Project Here</h3>
+                    <p>My creative ability is very difficult to measure because it can 
+                        manifest in so many surprising and.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imgs/des2.jpg" alt="">
+                <div class="info">
+                    <h3>Project Here</h3>
+                    <p>My creative ability is very difficult to measure because it can 
+                        manifest in so many surprising and.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imgs/des3.jpg" alt="">
+                <div class="info">
+                    <h3>Project Here</h3>
+                    <p>My creative ability is very difficult to measure because it can 
+                        manifest in so many surprising and.</p>
+                </div>
+            </div>
+        </div>
+        <button>Show Me More</button>
+    </section>
+    <section class="about" id="about">
+        <h2 class="special-heading">about</h2>
+        <p>Less is more work</p>
+        <div class="container">
+            <div class="image">
+                <img src="Imgs/flowers.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam esse soluta, officiis, rerum consectetur amet, eius culpa dolores incidunt mollitia quam doloremque odio accusantium deleniti quisquam. Quia dolores in eum!</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam esse soluta, officiis, rerum consectetur amet, eius culpa dolores incidunt mollitia quam doloremque odio accusantium deleniti quisquam. Quia dolores in eum!</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="special-heading">contact</h2>
+        <p>We are born to create</p>
+        <div class="container">
+            <div class="info">
+                <h3>Feel free to drop us a line at:</h3>
+                <a href="mailto:leonagency@mail.com" class="mail">leonagency@mail.com</a>
+                <div class="social">
+                    Find us on social networks:
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 - <span>Leon</span>, All Rights Reserved
+    </footer>
+    <a href="#" class="up"><i class="fa-regular fa-circle-up"></i></a>
+    <!-- <script>
+        document.querySelector(".up").onclick
+    </script> -->
+</body>
+</html>
