@@ -29,7 +29,7 @@ Leon is a free PSD template made by Graphberry. It comes in a modern, flat desig
 ### Links
 
 - Repo URL: [Repo URL](https://github.com/YahiaG/Leon---PSD-Agency-Template)
-- Live Site URL: [Live Site URL]()
+- Live Site URL: [Live Site URL](https://yahiag.github.io/Leon---PSD-Agency-Template/)
 
 ## My process
 
@@ -48,6 +48,6 @@ Leon is a free PSD template made by Graphberry. It comes in a modern, flat desig
 
 ## Acknowledgments
 
-If I should tip my hat for someone in this field, this one will absolutely be [Osama Elzero(https://elzero.org/)], I'm so grateful to him for all the Good courses he presents to all for free.
+If I should tip my hat for someone in this field, this one will absolutely be [Osama Elzero](https://elzero.org/), I'm so grateful to him for all the Good courses he presents to all for free.
 
 > من علمني حرفاً صنت له عهداً, حفظت له وداً
